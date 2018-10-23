@@ -1,0 +1,42 @@
+{
+    "name": "jdombroski/docusign",
+    "description": "DocuSign Rest API Client for Laravel 5",
+    "keywords": ["laravel", "docusign", "laravel 5", "sign", "documents", "envelope"],
+    "homepage": "https://github.com/jdombroski/docusign",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Dombroski",
+            "email": "dombroski.jeffrey@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.6.4",
+        "illuminate/support": "~5.1",
+        "guzzlehttp/guzzle": "~6.0",
+        "laravel/framework": "5.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.4.x-dev",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jdombroski\\DocuSign\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jdombroski\\DocuSign\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "5.6.4"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
