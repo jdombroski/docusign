@@ -7,7 +7,7 @@ use jdombroski\DocuSign\Exceptions\ApiException;
 use jdombroski\DocuSign\Apis\EnvelopesApi;
 
 /**
- * @method EnvelopesApi envelopes
+ * @method EnvelopesApi envelopes()
  */
 class DocuSign
 {

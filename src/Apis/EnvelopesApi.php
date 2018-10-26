@@ -5,7 +5,7 @@ namespace jdombroski\DocuSign\Apis;
 use jdombroski\DocuSign\Resources\Envelopes\EnvelopeDocumentTabs;
 
 /**
- * @property EnvelopeDocumentTabs DocumentTabs
+ * @method  EnvelopeDocumentTabs documentTabs()
  */
 class EnvelopesApi extends BaseApi 
 {
