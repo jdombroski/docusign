@@ -34,10 +34,10 @@ class TestCase extends \Orchestra\Testbench\TestCase
      */
     protected function getEnvironmentSetUp($app)
     {
-        $app['config']->set('docusign.host', 'https://demo.docusign.net/restapi/');
-        $app['config']->set('docusign.username', 'jdombroski@trimarkproperties.com');
-        $app['config']->set('docusign.password', 'Preggy92');
-        $app['config']->set('docusign.integrator_key', '7b5cd4a5-e36c-4aef-b25a-d0093b75a03d');
+        $app['config']->set('docusign.host', 'x');
+        $app['config']->set('docusign.username', 'x');
+        $app['config']->set('docusign.password', 'x');
+        $app['config']->set('docusign.integrator_key', 'x');
     }
     
     protected function setUp()
