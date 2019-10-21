@@ -3,7 +3,6 @@
 namespace jdombroski\DocuSign\Tests;
 
 use jdombroski\DocuSign\DocuSignServiceProvider;
-use jdombroski\DocuSign\Facades\DocuSign as DocuSignFacade;
 use jdombroski\DocuSign\Facades\ApiRequestor as ApiRequestorFacade;
 
 class TestCase extends \Orchestra\Testbench\TestCase
@@ -21,7 +20,6 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'DocuSign' => DocuSignFacade::class,
             'ApiRequestor' => ApiRequestorFacade::class,
         ];
     }

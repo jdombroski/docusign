@@ -20,17 +20,11 @@ class DocuSignServiceProvider extends ServiceProvider
         $this->app->singleton(DocuSign::class, function ($app) {
             return new DocuSign();
         });
-        $this->app->alias(DocuSign::class, 'docusign');
 
         $this->app->singleton(ApiRequestor::class, function ($app) {
             return new ApiRequestor();
         });
         $this->app->alias(ApiRequestor::class, 'docusign-api-requestor');
 
-    }
-
-    public function provides()
-    {
-        return ['docusign'];
     }
 }
