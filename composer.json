@@ -12,10 +12,10 @@
         }
     ],
     "require": {
-        "php": "7.2.*",
+        "php": ">=7.2",
         "guzzlehttp/guzzle": "~6.0",
         "illuminate/support": "~5.1",
-        "laravel/framework": "5.*"
+        "laravel/framework": "^6.0"
     },
     "require-dev": {
         "orchestra/testbench": "3.4.x-dev",
@@ -32,11 +32,15 @@
         }
     },
     "config": {
-        "platform": {
-            "php": "7.2.4"
-        },
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jdombroski\\DocuSign\\DocuSignServiceProvider"
+            ]
+        }
+    }
 }
