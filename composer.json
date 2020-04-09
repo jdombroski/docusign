@@ -12,13 +12,13 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2.5",
         "guzzlehttp/guzzle": "~6.0",
-        "laravel/framework": "6.*"
+        "laravel/framework": "^7.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0@dev",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^8.5"
     },
     "autoload": {
         "psr-4": {
